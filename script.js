@@ -75,21 +75,7 @@ const SOALAN = {
   ],
 
   /* ---------- LEVEL 5 ---------- */
-  5: [
-    { q: "Ali makan 1/4 pizza. Berapa tinggal?", options: ["1/4", "2/4", "3/4", "4/4"], answer: "3/4" },
-    { q: "Siti 3/4 - 1/4 = ?", options: ["1/4", "2/4", "3/4", "4/4"], answer: "1/2" },
-    { q: "2/6 + 3/6 = ?", options: ["4/6", "5/6", "6/6", "3/6"], answer: "5/6" },
-    { q: "3/6 + 1/6 = ?", options: ["2/3", "4/6", "3/6", "5/6"], answer: "2/3" },
-    { q: "4/5 + 3/5 = ?", options: ["6/5", "7/5", "5/5", "8/5"], answer: "1 2/5" },
-    { q: "3/8 guna 2/8. Tinggal?", options: ["1/8", "2/8", "3/8", "4/8"], answer: "1/8" },
-    { q: "1/3 + 2/3 = ?", options: ["2/3", "3/3", "1/3", "4/3"], answer: "1" },
-    { q: "2/9 + 4/9 = ?", options: ["5/9", "6/9", "7/9", "8/9"], answer: "2/3" },
-    { q: "3/4 + 2/4 = ?", options: ["4/4", "5/4", "3/4", "6/4"], answer: "5/4" },
-    { q: "2/3 + 1/3 = ?", options: ["2/3", "3/3", "1/3", "4/3"], answer: "1" },
-    { q: "2/9 + 4/9 = ?", options: ["5/9", "6/9", "7/9", "8/9"], answer: "2/3" },
-    { q: "4/5 + 1/5 = ?", options: ["4/5", "5/5", "6/5", "3/5"], answer: "1" }
-  ]
-};
+ 5: [ { q: "Ali makan 1/4 pizza. Berapa bahagian pizza yang TINGGAL?", options: ["1/4", "2/4", "3/4", "4/4"], answer: "3/4" }, { q: "Siti ada 3/4 gelas air. Dia minum 1/4 gelas. Berapa gelas air yang tinggal?", options: ["1/4", "2/4", "3/4", "4/4"], answer: "2/4" }, { q: "Seorang guru mewarna 2/6 lukisan pada pagi dan 1/6 lukisan pada petang. Berapa bahagian lukisan yang telah diwarna?", options: ["1/6", "2/6", "3/6", "4/6"], answer: "3/6" }, { q: "Kain riben sepanjang 5/8 meter. Tini gunting 2/8 meter. Berapa meter riben yang tinggal?", options: ["2/8", "3/8", "4/8", "6/8"], answer: "3/8" }, { q: "Amin baca 1/5 buku pada hari Isnin dan 2/5 buku pada hari Selasa. Berapa bahagian buku yang Amin sudah baca?", options: ["2/5", "3/5", "4/5", "1/5"], answer: "3/5" }, { q: "Sebuah bekas air penuh. Kak Ros tuang 3/8 bahagian air ke dalam jag. Berapa bahagian air yang tinggal dalam bekas?", options: ["3/8", "4/8", "5/8", "6/8"], answer: "5/8" }, { q: "Sara ada 2 biji epal dan 1/2 lagi. Berapa biji epal Sara ada semuanya?", options: ["2 biji", "2 1/4 biji", "2 1/2 biji", "3 biji"], answer: "2 1/2 biji" }, { q: "Adik minum 2/6 cawan susu waktu pagi dan 3/6 cawan susu waktu malam. Berapa cawan susu yang diminum adik hari itu?", options: ["4/6", "5/6", "6/6", "3/6"], answer: "5/6" }, { q: "Ayah membeli 3/4 kg gula. Ibu guna 1/4 kg untuk masak. Berapa kg gula yang tinggal?", options: ["1/4 kg", "2/4 kg", "3/4 kg", "4/4 kg"], answer: "2/4 kg" }, { q: "Kelas 4 Bestari mengumpul 1/3 botol air pada hari Isnin dan 1/3 botol air pada hari Rabu. Berapa botol air yang terkumpul?", options: ["1/3", "2/6", "2/3", "3/3"], answer: "2/3" }, { q: "Seekor siput bergerak 2/9 meter pada waktu pagi dan 4/9 meter pada waktu petang. Berapa meter jarak keseluruhan yang ditempuh siput itu?", options: ["5/9", "6/9", "7/9", "8/9"], answer: "6/9" }, { q: "Ibu beli kain 4/5 meter untuk baju Ayu dan 3/5 meter untuk baju Mimi. Berapa meter kain yang dibeli ibu?", options: ["6/5", "7/5", "7/10", "5/5"], answer: "7/5" }, ], };
 
 /* Number of questions per quiz */
 const SOALAN_PER_QUIZ = 10;
