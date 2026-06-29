@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latihan Matematik Tahun 4 – Pecahan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== HALAMAN UTAMA ========== -->
+  <div id="screen-home" class="screen active">
+    <div class="home-wrapper">
+      <div class="home-badge">Matematik Tahun 4</div>
+      <div class="home-icon">🍕</div>
+      <h1 class="home-title">Latihan<br><span class="highlight">Pecahan</span></h1>
+      <p class="home-sub">Pilih tahap latihan dan mula sekarang!</p>
+
+      <div class="level-grid">
+        <button class="level-btn" data-level="1">
+          <span class="level-num">1</span>
+          <span class="level-name">Pecahan Asas</span>
+          <span class="level-desc">Kenal & bandingkan pecahan</span>
+        </button>
+        <button class="level-btn" data-level="2">
+          <span class="level-num">2</span>
+          <span class="level-name">Tambah Pecahan</span>
+          <span class="level-desc">Tambah pecahan sama penyebut</span>
+        </button>
+        <button class="level-btn" data-level="3">
+          <span class="level-num">3</span>
+          <span class="level-name">Tolak Pecahan</span>
+          <span class="level-desc">Tolak pecahan sama penyebut</span>
+        </button>
+        <button class="level-btn" data-level="4">
+          <span class="level-num">4</span>
+          <span class="level-name">Pecahan + Nombor Bulat</span>
+          <span class="level-desc">Gabungkan nombor bulat & pecahan</span>
+        </button>
+        <button class="level-btn level-btn--hard" data-level="5">
+          <span class="level-num">5</span>
+          <span class="level-name">Masalah Ayat</span>
+          <span class="level-desc">Soalan cerita pecahan</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== HALAMAN LATIHAN ========== -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <button id="btn-back" class="back-btn" title="Kembali ke Menu">&#8592; Menu</button>
+      <div class="level-tag" id="quiz-level-tag">Tahap 1</div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span>Soalan <span id="q-current">1</span> / <span id="q-total">10</span></span>
+        <span id="q-score-live">✅ 0 betul</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-fill"></div>
+      </div>
+    </div>
+
+    <div class="quiz-card" id="quiz-card">
+      <p class="question-num" id="question-num">Soalan 1</p>
+      <p class="question-text" id="question-text">Soalan di sini…</p>
+      <div class="options-grid" id="options-grid">
+        <!-- Pilihan A-D akan dijana oleh JS -->
+      </div>
+    </div>
+
+    <div class="quiz-footer">
+      <button id="btn-next" class="btn-next" disabled>Seterusnya ➜</button>
+    </div>
+  </div>
+
+  <!-- ========== HALAMAN KEPUTUSAN ========== -->
+  <div id="screen-result" class="screen">
+    <div class="result-wrapper">
+      <div class="result-icon" id="result-icon">🎉</div>
+      <h2 class="result-title" id="result-title">Tahniah! Anda Lulus!</h2>
+      <div class="result-score-box">
+        <span class="result-score" id="result-score">9 / 10</span>
+        <span class="result-pct" id="result-pct">90%</span>
+      </div>
+      <div class="result-stars" id="result-stars"></div>
+      <p class="result-msg" id="result-msg">Hebat! Teruskan usaha anda!</p>
+
+      <div class="result-review" id="result-review"></div>
+
+      <div class="result-actions">
+        <button class="btn-action btn-primary" id="btn-next-level">Cuba Tahap Seterusnya ➜</button>
+        <button class="btn-action btn-secondary" id="btn-retry">Ulang Latihan ↺</button>
+        <button class="btn-action btn-ghost" id="btn-home">Kembali ke Menu 🏠</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
